@@ -9,6 +9,9 @@
 * Create development environment that is cloud-based: 
 
 ### Colab Notebook
+
+* This is an example of how to use [colab](https://github.com/hymavathi99/python-for-devops/blob/main/getting_started_python.ipynb)
+
 ### Github Codespaces
 ### AWS CloudShell 
 ### AWS Cloud9

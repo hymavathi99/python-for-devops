@@ -24,6 +24,9 @@ Build out python project:
 * command-line-tool
 * Microservice
 
+1. Create a virtualenv: `python3 -m venv ~/.venv`
+2. edit my `~/.bashrc`
+3. 
 
 ### AWS CloudShell 
 ### AWS Cloud9

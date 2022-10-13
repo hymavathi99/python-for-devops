@@ -1,2 +1,13 @@
-ssh-keygen -t rsa
+git clone <http_url>
 
+ssh-keygen -t rsa
+git clone <ssh_url>
+
+pip freeze | less (packages that are installed in that environment)
+pip freeze | wc -l (count of packages that are installed)
+
+python3 -m venv ~/.venv
+nano ~/.bashrc
+    Add below line in ~/.bashrc file
+    source ~/.venv/bin/activate
+    

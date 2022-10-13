@@ -6,8 +6,24 @@ git clone <ssh_url>
 pip freeze | less (packages that are installed in that environment)
 pip freeze | wc -l (count of packages that are installed)
 
+# Creating virtual environment to avoid conflicts between 
+# already installed packages and our packages 
+# in that specific environment
 python3 -m venv ~/.venv
 nano ~/.bashrc
     Add below line in ~/.bashrc file
     source ~/.venv/bin/activate
     
+
+Install packages using Makefile
+step1 - Add below lines in Makefile
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+		
+step2 - Run Makefile using below command in terminal
+make install
+
+		
+
+
